@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+body {
+    background: url(img.jpg);
+}
+.wrapper {
+display: flex;
+justify-content: center;
+position: relative;
+top: 13rem;
+background-color: rgba(41, 39, 39, 0.514);
+height: 400px;
+width: 300px;
+left: 35rem;
+border-radius: 10%;
+text-align: center;
+border: 2px solid rgba(23, 23, 23, 0.377);
+}
+.heading{
+    font-size: 1.5rem;
+    color: rgb(195, 200, 204);
+    position: relative;
+    top: 2rem;
+}
+.input-box-1{
+    position: relative;
+    top: 4rem;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 2%;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    color: rgb(21, 22, 22);
+    font-size: large;
+    text-align: center;
+}
+input::placeholder{
+   color: rgb(20, 20, 20);
+   text-align: center;
+   font-weight: bold;
+}
+.input-box-2{
+    position: relative;
+    top: 6rem;
+    height: 2.5rem;
+    width: 15rem;
+    border-radius: 2%;
+    border: none;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    color: rgb(21, 22, 22);
+    font-size: large;
+    text-align: center;
+}
+.input-boxes-2{
+    position: relative;
+    top: 7.5rem;
+    font-weight: bold;
+    color: rgb(21, 22, 22);
+}
+.submit{
+    position: relative;
+    top: 9rem;
+    height: 2rem;
+    width: 9rem;
+    color: rgb(21, 22, 22);
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.534);
+    border-radius: 2%;
+    font-weight: bold;
+}
+.google{
+    position: relative;
+    top: 10rem;
+    left: 0.5rem;
+    font-weight: bold;
+    color: rgb(21, 22, 22);
+    user-select: none;
+}
+.apple{
+    position: relative;
+    top: 11rem;
+    left: 0.5rem;
+    font-weight: bold;
+    color: rgb(21, 22, 22);
+    user-select: none;
+}
+@media only screen and (max-width: 600px) {
+    body{
+    position: relative;
+    right: 25rem;
+    }
+}
+@media only screen and (max-width: 450px) {
+    body{
+    position: relative;
+    right: 31rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    body{
+    position: relative;
+    right: 32rem;
+    bottom: 3rem;
+    }
+}
+@media only screen and (max-width: 360px) {
+    body{
+    position: relative;
+    right: 33rem;
+    bottom: 3rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    body{
+    position: relative;
+    right: 20rem;
+    }
+}
