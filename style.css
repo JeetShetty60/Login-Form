@@ -90,35 +90,12 @@ input::placeholder{
     color: rgb(21, 22, 22);
     user-select: none;
 }
-@media only screen and (max-width: 600px) {
-    body{
-    position: relative;
-    right: 25rem;
-    }
-}
-@media only screen and (max-width: 450px) {
-    body{
-    position: relative;
-    right: 31rem;
-    }
-}
-@media only screen and (max-width: 400px) {
-    body{
-    position: relative;
-    right: 32rem;
-    bottom: 3rem;
-    }
-}
-@media only screen and (max-width: 360px) {
-    body{
-    position: relative;
-    right: 33rem;
-    bottom: 3rem;
-    }
-}
-@media only screen and (max-width: 900px) {
-    body{
-    position: relative;
-    right: 20rem;
+@media only screen and (max-width: 1440px)
+{
+    .wrapper{
+        position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
     }
 }
